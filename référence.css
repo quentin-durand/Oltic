@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* CSS Document */
+#banner{
+	background-color:#9A9999;
+	height:200px;}
+
+#body{
+background: no-repeat center fixed; 
+  -webkit-background-size: cover; /* pour Chrome et Safari */
+  -moz-background-size: cover; /* pour Firefox */
+  -o-background-size: cover; /* pour Opera */
+  background-size: cover; /* version standardisée */
+	margin: 0;
+	padding: 0;
+}
+.logo{
+	float:left;
+	
+}
+#navbar{
+	background-color:#9A9999;
+	
+	}
+.navbar-inner{
+	height:20px;
+	
+}

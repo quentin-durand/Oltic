@@ -1,0 +1,409 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	color:#fff;
+	width:100%;
+	height:100%;
+	background-color:#000;
+position:fixed;
+overflow:auto;
+}
+
+
+/* Large desktop */
+@media (min-width: 1200px) { ... }
+ 
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) { ... }
+ 
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) { ... }
+ 
+/* Landscape phones and down */
+@media (max-width: 480px) { ... }
+/*-------------------Menu---------------*/
+#header{
+	background-color:#333;
+	-moz-box-shadow: 0px 2px 0px 0px #656565;
+	-webkit-box-shadow: 0px 2px 0px 0px #656565;
+	-o-box-shadow: 0px 2px 0px 0px #656565;
+	box-shadow: 0px 2px 0px 0px #656565;
+	filter:progid:DXImageTransform.Microsoft.Shadow(color=#656565, Direction=180, Strength=0);
+	height:100px;
+	width:100%;
+	position:fixed;
+	z-index:1;
+}
+
+.menu{
+	width:600px;
+	overflow:hidden;
+	float:right;
+	margin-right:20px;
+	margin-top:35px;
+
+	
+}
+.menu-inner{background-color:#9A9999;
+
+	}
+.navbar-inner{
+	margin-top:30px;
+	height:20px;
+	
+	border:none;
+	overflow:hidden;
+
+}
+
+.logo{
+	float:left;
+	
+}
+.container a{
+	color:#000;
+}
+.container a:hover{
+	color:#02AADC;
+}
+.brand.current {
+	color:#02AADC;
+}
+/*-------------------------------Footer home page----------------------------------*/
+
+footer{text-align:center;
+margin-top:1%;
+	}
+
+footer a{
+	
+	color:#FFF;
+	}
+
+
+/*------------------------------Contenu Référence---------------------------------*/
+#contenu{
+	
+
+	height:100%;
+	width:100%;
+	
+	}
+.fond{	
+	background-image:url();
+	
+	background-position: center;
+	width:100%;
+	height:100%;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	padding-top:2%;
+	
+}
+
+
+
+h1{
+	float:clear;
+	color:#9A9999;
+	margin:0;
+}
+
+
+. brand a:active{color:#02AADC;
+}
+
+
+
+.block-text{
+	width:20%;
+	height:100%;
+	background-image:url(../image/pattern-grey.png);
+	position:fixed;
+	-webkit-transform: translateY(0px) translateZ(0px);
+	overflow:auto;
+		}
+#title{
+	clear:both;
+	color:#02AADC;
+	margin-left:12%;
+	padding-top:50%;
+	font-size:36px;
+	}
+
+#load{
+	margin-left:15%;
+	background-image:url(../image/ico-on.png);
+	background-position:left top;
+	width:50px;
+	height:50px;
+	float:left;
+}
+
+
+#load:hover{background-position:-50px bottom;
+
+		}
+.link{text-decoration:none;
+margin-left:10%;
+font-size:18px;
+color:#02AADC;
+
+}
+.link:hover{color:#333;
+text-decoration:none;
+}
+.descriptif{
+	border-top:1px solid #000000;
+	border-bottom:1px solid #000000;
+	margin-top:20%;
+	margin-left:50px;
+	padding-top:20%;
+	padding-bottom:20%;
+	width:70%;
+	color:#FFF;
+	height:30%;
+	font-size:12px;
+	overflow:hidden;
+	text-align:justify;
+}
+.image{
+	margin-left:10%;
+	margin-bottom:20%;
+	}
+		
+/*-----------------------------Contenu home page----------------------------------*/
+
+
+
+
+.explication{
+
+	color:#FFF;
+	height:10%;
+}
+#titre{
+	width:200%;
+	font-family:arial;
+	margin-left:100px;
+	text-align:justify;
+	line-height:50px;
+	font-size:36px;
+	margin-top:55%;
+	}
+#slogan{
+	margin-top:20%;
+	width:200%;
+	font-size:24px;
+	font-family:arial;
+	margin-left:37%;
+	text-align:justify;
+	line-height:50px;
+	
+}
+
+#bloc-couleur{
+	background-color:#333;
+	height:100px;
+	margin-top:0px;
+	
+	
+	
+	}
+
+.mac{
+	padding:5% 0% 3% 0%;
+	margin-top:3%;}
+	
+/*----------------------------------Nos metiers----------------------------------*/
+
+#metiers{
+	padding-top:10%;
+	margin-left:25%;
+	width:60%;
+	
+	
+}
+
+.barre{
+	background:#656565;
+	height:2px;
+	margin-left:5%;
+	}
+	
+	
+	
+	.rectangle-logo{height:100%;
+	background-image:url(../image/pattern-noir.png);
+		width:20%;
+	padding-top:12%;
+	position:fixed;
+	-moz-box-shadow: 3px 0px 5px 0px #000000;
+-webkit-box-shadow: 3px 0px 5px 0px #000000;
+-o-box-shadow: 3px 0px 5px 0px #000000;
+box-shadow: 3px 0px 5px 0px #000000;
+filter:progid:DXImageTransform.Microsoft.Shadow(color=#000000, Direction=90, Strength=5);
+		}
+	
+/*---------------------------------developpement-----------------------------------*/
+
+
+
+#developpement{
+	
+}
+#img-dvp{height:5%;
+width:100%;
+	}
+
+
+
+
+/*------------------------------Réseau----------------------------------------------*/
+#img-reseau{height:5%;
+width:100%;
+	
+	}
+
+
+
+/*------------------------------Formation----------------------------------------------*/
+
+	
+	
+	#img-formation{
+		
+		}
+	
+	
+	
+	
+	
+	
+	
+/*---------------------------Nav-Carrousel---------------------------------------*/
+
+.nav-slide{
+	float:right;
+	Padding-top:25%;
+	list-style:none;	
+}
+.right{
+	background-color:#333;
+	padding:10PX;
+	}	
+	.right li{
+		list-style:none;
+		}
+.right:hover{
+	background-color:#02AADC;
+	
+}
+.left{
+	background-color:#333;
+	padding:10px;}
+	
+	.left li{list-style:none;
+	}
+.left:hover{
+	background-color:#02AADC;
+	
+}
+
+
+/*-------------------------------Contact------------------------------------*/
+
+
+#formulaire{
+	float:left;
+	width:auto;
+	margin-right:5%;
+	
+}
+#contact{
+
+	padding-left:50%;
+
+}
+
+#block-map{
+	margin-top:13%;
+	width:auto;
+float:left;
+margin-left:6%;
+
+}
+#map{
+	border: 5px solid #999;
+ 
+	margin-left:95%;
+}
+
+#legende-map{
+	margin-left:140%;
+	width:30%;
+	
+	
+}
+
+#adresse{
+	margin:20% 0% 0% 65%;;
+	font-size:35px;
+	line-height:12px;
+	width:100%;
+	
+	}
+#code-postal{
+		margin:2% 0% 0% 90%;;
+	font-size:35px;
+	line-height:12px;
+	width:100%;
+	}
+	
+	#tel{
+			margin:5% 0% 0% 79%;;
+	font-size:35px;
+	line-height:5%;
+	width:100%;
+	
+		}
+		
+		#num{float:right;
+		font-size:42px;
+		margin-left:0%;
+			
+		}
+		
+		#contenu-contact{
+	background:#000;
+	background-position: center;
+	height:100%;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	padding-top:10%;
+	background-attachment:fixed;
+	float:left;
+	width:70%;
+	position:fixed;
+	
+	}
+		.rectangle{height:100%;
+		background-color:#9A9999;
+		width:20%;
+	padding-top:7%;
+	position:fixed;
+	
+		}
+		.tel{
+			margin:1px;
+		}
+		
